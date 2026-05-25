@@ -1,6 +1,6 @@
 # LANChat: Decentralized Local P2P Chat Application
 
-[📺 Watch the Architecture & Live Demo Video](PLACEHOLDER_FOR_YT_UNLISTED_DEMO_VIDEO)
+[📺 Watch the Architecture & Live Demo Video](https://youtu.be/zecsLOvPwKk)
 
 ## 📌 Project Overview
 A lightweight, highly stable local Peer-to-Peer (P2P) chat application built from scratch for Windows using C++17 and the Qt 5.15.2 framework. The architecture is completely decentralized, eliminating the need for a central server by utilizing UDP socket broadcasts for real-time peer discovery and persistent, duplex TCP connections for message transport.
