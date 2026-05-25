@@ -1,0 +1,57 @@
+# =========================================================================
+# LANChat Git Ignore Configuration
+# Tailored for Qt 5.15.2 / MSVC 2019 development environment on Windows
+# =========================================================================
+
+# --- Compile and Build Directories ---
+debug/
+release/
+
+# --- Keep Specific Production Binaries / Assets if needed ---
+# If you want to track a pre-built executable deployed to the release folder,
+# uncomment the line below. Otherwise, the build tree is completely excluded.
+# !release/LANChat.exe
+
+# --- MSVC Compiler and Linker Artifacts ---
+*.obj
+*.lk
+*.ilk
+*.pdb
+*.idb
+*.iobj
+*.ipdb
+*.exp
+*.lib
+*.dll
+*.exe
+*.manifest
+*.res
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcproj
+*.vcxproj
+*.filters
+*.sln
+.vs/
+
+# --- Qt & QMake Generated Artifacts ---
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+object_script.*
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qrc.depends
+
+# --- Local Testing Artifacts & History Logs ---
+chat_history_*.txt
+chat_history.txt
+*.log
+tmp/
+temp/

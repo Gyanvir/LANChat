@@ -1,0 +1,32 @@
+# =========================================================================
+# LANChat Git Attributes Configuration
+# Enforces cross-platform line ending normalization (LF/CRLF rules)
+# =========================================================================
+
+# Set default behavior to auto-detect text files and normalize line endings
+* text=auto
+
+# Enforce Line Feed (LF) endings for C++, Qt project files, and documentation
+*.cpp text eol=lf
+*.h text eol=lf
+*.pro text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.qss text eol=lf
+*.json text eol=lf
+
+# Force Windows Carriage Return Line Feed (CRLF) for command-line batch scripts to prevent cmd.exe parser issues
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Explicitly mark binary files to prevent Git from performing line-ending normalization
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.exe binary
+*.dll binary
+*.lib binary
+*.obj binary
